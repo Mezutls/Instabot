@@ -3,8 +3,8 @@ import instaloader
 from telegram.ext import CommandHandler, Updater
 
 # Replace YOUR_API_TOKEN with your actual API token
-bot = telegram.Bot(token='YOUR_API_TOKEN')
-updater = Updater(token='YOUR_API_TOKEN', use_context=True)
+bot = telegram.Bot(token='6292823663:AAG2ABwgjzIYDNLLAr33riNlI7LHBx7g2SQ')
+updater = Updater(token='6292823663:AAG2ABwgjzIYDNLLAr33riNlI7LHBx7g2SQ', use_context=True)
 
 # Handle /start command
 def start(update, context):
